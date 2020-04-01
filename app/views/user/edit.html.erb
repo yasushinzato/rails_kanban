@@ -1,0 +1,12 @@
+<div class="usereditPage">
+  <div class="countainer">
+    <%= form_with model: @user, url: {action: :update }, html: { class: 'userForm' }, local: true do |f| %>
+      <% if @user.errors.any? %>
+        <p class="text-danger">名前は20文字以内で入力してください</p>
+      <% end %>
+      <%= f.label :name %>
+      <%= f.text_field :name , class: "form-control userName", placeholder: "氏名" %>
+      <div class="text-center"><%= f.submit "編集する", class: "submitBtn" %></div>
+    <% end %>
+  </div>
+</div>
