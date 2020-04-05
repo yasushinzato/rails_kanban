@@ -14,7 +14,8 @@
 
 かんばんによる簡易 ToDo リストを作成
 SQLite3 なので、DB 構築は特に必要なく使用できる。
-画像はあとで貼る。
+![kanban_description](https://user-images.githubusercontent.com/56783072/78467880-8a50ea80-774c-11ea-8b20-3eab451c0503.gif)
+
 
 ### Ruby on Rails インストール
 
